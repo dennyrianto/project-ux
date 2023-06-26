@@ -1,0 +1,1777 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.KotakNavbar {
+    width: 1520px;
+    height: 141.03px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.LogoNavbar {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.ContainerNavbar ul {
+    margin-top: 55px;
+    display: flex;
+}
+
+.ContainerNavbar ul li {
+    list-style: none;
+    margin-right: 45px;
+}
+
+.ContainerNavbar ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.9721px;
+    line-height: 21px;
+    color: #257C21;
+}
+
+
+
+/* Animasi Navbar */
+
+#nav1:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+#nav2:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+#nav3:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+#nav4:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+#nav5:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+#nav6:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+#nav7:hover {
+    color: #C5C4C3 ;
+    transition: 300ms;
+}
+
+/* Search Box ----------------------------------------------------*/
+
+.SearchBox {
+    margin-top: -10px;
+}
+
+.SearchBox input {
+    background: #FFFFFF;
+    box-shadow: 0px 3.49303px 3.49303px rgba(0, 0, 0, 0.25);
+    border-radius: 8.73256px;
+    border: none;
+    height: 34.8px;
+    width: 183.23px;
+    text-indent: 20px;
+}
+
+.SearchBox input::placeholder {
+    background-image: url(img/searchIcon.png);
+    background-repeat: no-repeat;
+    background-size: 19px;
+}
+
+/* Halaman Landing Page Pendaftaran -------------------------------*/
+
+.Hero {
+    display: flex;
+    width: 100%;
+}
+
+.LeftHero {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.LeftHero h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+
+    text-indent: 0.873257px;
+    color: #257C21;
+
+    width: 567px;
+}
+
+.LeftHero p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #609966;
+
+    margin-top: 45px;
+    width: 419px;
+}
+
+.LeftHero button {
+    background: #257C21;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 14px;
+    border: none;
+    outline: none;
+
+    margin-top: 60px;
+    transition: 300ms;
+}
+
+.LeftHero button:hover {
+    background: #1D5C1A;
+    text-decoration-line: underline;
+}
+
+.RightHero {
+    width: 759px;
+    height: 890px;
+/*     margin-left: 4.5%; */
+}
+
+.RightHero img {
+    position: absolute;
+    width: 801.167px;
+    height: 939.444px;
+    left: 718.83px;
+    top: 141.44px;
+}
+
+/* Dropdown Menu ----------------------------------------------- */
+
+.menuKemahasiswaan {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    left: 377px;
+    top: 75px;
+    width: 652px;
+    height: 317px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+}
+
+.menuPendidikan {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    left: 825px;
+    top: 75px;
+    width: 652px;
+    height: 317px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+}
+
+.menuBerita {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    left: 552px;
+    top: 75px;
+    width: 296px;
+    height: 317px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+}
+
+.menuPenelitian {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    left: 965px;
+    top: 75px;
+    width: 652px;
+    height: 287px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+}
+
+.menuTentang {
+    display: none;
+    z-index: 99;
+    position: absolute;
+    left: 652px;
+    top: 75px;
+    width: 652px;
+    height: 404px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+}
+
+.judulMenu1 {
+    position: absolute;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    top: 25px;
+    left: 35px;
+}
+
+.menuLine1 {
+    position: absolute;
+    top: 58px;
+    left: 35px;
+    width: 100px;
+    background: #AAAAAA;
+}
+
+.judulMenu2 {
+    position: absolute;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    top: 25px;
+    left: 388px;
+}
+
+.menuLine2 {
+    position: absolute;
+    top: 58px;
+    left: 388px;
+    width: 100px;
+    background: #AAAAAA;
+}
+
+.isiMenu1 {
+    position: absolute;
+    top: 88px;
+    left: 35px;
+    font-size: 14px;
+    color: #257C21;
+}
+
+.isiMenu1 ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.isiMenu1 ul li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.isiMenu1 ul li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 26px;
+    color: #257C21;
+}
+
+.isiMenu2 {
+    position: absolute;
+    top: 88px;
+    left: 388px;
+    font-size: 14px;
+    color: #257C21;
+}
+
+.isiMenu2 ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.isiMenu2 ul li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.isiMenu2 ul li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 26px;
+    color: #257C21;
+}
+
+
+/* Halaman HOMEPAGE --------------------------------------------- */
+
+/* Profil */
+.profilUnand {
+    position: absolute;
+    width: 1520px;
+    height: 649.24px;
+    left: 0px;
+    top: 141.44px;
+
+    background: #9DC08B;
+}
+
+.profilLogo {
+    position: absolute;
+    width: 175.24px;
+    height: 210.02px;
+    left: 452px;
+    top: 218.85px;
+}
+
+.profilText h1{
+    position: absolute;
+    left: 660px;
+    top: 210.56px;
+    width: 350px;
+    height: 70px;
+    color: #FFF;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.85);
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 34.117px;
+}
+
+.profilText h2{
+    position: absolute;
+    left: 660px;
+    top: 293.56px;
+    width: 417px;
+    height: 62px;
+    color: #FFF;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.85);
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 34.117px;
+}
+
+/* Berita */
+.boxBerita {
+    position: absolute;
+    width: 1520px;
+    height: 718.83px;
+    left: 0px;
+    top: 790.61px;
+
+    background: #609966;
+    border-radius: 0px 0px 92.1539px 92.1539px;
+}
+
+.boxBerita h3 {
+    position: absolute;
+    top: 20px;
+    left: 551.33px;
+    width: 416.825px;
+    height: 25.803px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.boxBerita h1 {
+    color: #000;
+    font-size: 18.431px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 27.646px;
+    margin: 17.51px 24.9px 0px 25.82px;
+}
+
+.boxBerita h2 {
+    color: #000;
+    font-size: 14.745px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 22.117px;
+    margin: 6px 165.07px 0px 24.9px;
+}
+
+.isiBerita1 {
+    position: absolute;
+    width: 288.642px;
+    height: 550.159px;
+    left: 90.24px;
+    top: 124.48px;
+    background: #FFFFFF;
+    border-radius: 23.572px;
+}
+
+.isiBerita2 {
+    position: absolute;
+    width: 288.642px;
+    height: 550.159px;
+    left: 440.67px;
+    top: 124.48px;
+    background: #FFFFFF;
+    border-radius: 23.572px;
+}
+
+.isiBerita3 {
+    position: absolute;
+    width: 288.642px;
+    height: 550.159px;
+    left: 790.17px;
+    top: 124.48px;
+    background: #FFFFFF;
+    border-radius: 23.572px;
+}
+
+.isiBerita4 {
+    position: absolute;
+    width: 288.642px;
+    height: 550.159px;
+    left: 1139.68px;
+    top: 124.48px;
+    background: #FFFFFF;
+    border-radius: 23.572px;
+}
+
+.btnBerita {
+    position: absolute;
+    top: 489.8px;
+    left: 95.91px;
+    bottom: 23.5px; 
+    width: 91.296px;
+    height: 36.862px;
+    background: #4F4F4F;
+    border-radius: 33.1754px;
+}
+
+.btnBerita p {
+    width: 42.222px;
+    height: 22.167px;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 13.722px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24.882px;
+}
+
+/* Unand Dalam Angka */
+.backAngka {
+    position: absolute;
+    top: 1510.06px;
+    width: 1520px;
+    height: 519px;
+
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    line-height: 22.117px;
+}
+
+.dalamAngka h1{
+    position: absolute;
+    top: 48.32px;
+    left: 587px;
+    width: 350px;
+    height: 31px;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25)
+}
+
+.dalamAngka {
+    display: flex;
+    margin: 20.68px 303.45px 14.52px 302.52px;
+    width: 914.029px;
+    height: 483.808px;
+    flex-shrink: 0;
+
+    border-radius: 61.743px;
+    background: #609966;
+    box-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+}
+
+.dalamAngka h2 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+    font-size: 44.234px;
+    font-family: Montserrat;
+    line-height: 22.117px;
+    font-weight: 300;
+}
+
+.dalamAngka h3 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+    font-size: 22.117px;
+    font-family: Montserrat;
+    line-height: 35.018px;
+    font-weight: 300;
+}
+
+.angkaPtn {
+    margin: auto;
+    width: 183.544px;
+    height: 250px;
+
+}
+
+.angkaMhs {
+    margin: auto;
+    width: 183.544px;
+    height: 250px;
+}
+
+.angkaProd {
+    margin: auto;
+    width: 183.544px;
+    height: 250px;
+
+}
+
+/* Agenda */
+.boxAgenda {
+    position: absolute;
+    top: 2029.06px;
+    width: 1520px;
+    height: 404px;
+}
+
+.boxAgenda h1 {
+    position: relative;
+    width: 346.796px;
+    height: 33.175px;
+    top: 67.5px;
+    left: 586.6px;
+    color: #257C21;
+    text-align: center;
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.Agenda1 {
+    position: absolute;
+    top: 153.2px;
+    left: 475.92px;
+}
+
+.Agenda1 h2 {
+    width: 289.612px;
+    height: 33.175px;
+    color: #000;
+    font-size: 23.96px;
+    font-family: Montserrat;
+    font-weight:400;
+    line-height: 29.489px;
+    margin-bottom: 30px;
+}
+
+.Agenda2 {
+    position: absolute;
+    top: 153.2px;
+    left: 832.83px;
+}
+
+.Agenda2 h2 {
+    width: 277.611px;
+    height: 33.778px;
+    color: #000;
+    font-size: 23.96px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 29.45px;
+}
+
+.groupAgendaCal {
+    display: flex;
+    margin-top: 35px;
+}
+
+.groupAgendaCal p{
+    margin-left: 15.48px;
+}
+
+.groupAgendaLoc {
+    display: flex;
+    margin-top: 10px;
+}
+
+.groupAgendaLoc p{
+    margin-left: 15.48px;
+}
+
+
+.agendaTgl , .agendaLoc {
+    font-size: 18.431px;
+    font-family: Montserrat;
+    line-height: 22.117px;
+    margin: auto;
+}
+
+.garisVert {
+    position: absolute;
+    top: 171.2px;
+    left: 760px;
+    width: 1px;
+    background-color: #AAAAAA;
+    height: 0px;
+    padding: 0px 0px 142.839px 0px;
+}
+
+.agendaTombolKiri {
+    position: absolute;
+    top: 192.83px;
+    left: 298.83px;
+}
+
+.agendaTombolKanan {
+    position: absolute;
+    top: 192.83px;
+    left: 1145.53px;
+}
+
+/* Pengumuman */
+.boxPengumuman {
+    position:absolute;
+    top: 2432.92px;
+    width: 1520px;
+    height: 387.046px;
+    background: #9DC08B;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #000;
+    font-size: 18.431px;
+    font-family: Montserrat;
+    line-height: 22.117px;
+}
+
+.boxPengumuman h1{
+    position: relative;
+    width: 346.796px;
+    height: 33.175px;
+    top: 51.61px;
+    left: 586.6px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.pengumuman1 {
+    position: absolute;
+    width: 232.427px;
+    height: 33.175px;
+    top: 141.92px;
+    left: 321.89px;
+}
+
+.pengumuman2 {
+    position: absolute;
+    width: 207.524px;
+    height: 33.175px;
+    top: 141.92px;
+    left: 659.47px;
+}
+
+.pengumuman3 {
+    position: absolute;
+    width: 229.056px;
+    height: 32.722px;
+    top: 141.92px;
+    left: 992.22px;
+}
+
+.garisVertPeng1 {
+    position: absolute;
+    top: 135.47px;
+    left: 566.31px;
+    width: 1px;
+    background-color: #AAAAAA;
+    height: 0px;
+    padding: 0px 0px 142.839px 0px;
+}
+
+.garisVertPeng2 {
+    position: absolute;
+    top: 135.47px;
+    left: 952.77px;
+    width: 1px;
+    background-color: #AAAAAA;
+    height: 0px;
+    padding: 0px 0px 142.839px 0px;
+}
+
+.pengTombolKiri {
+    position: absolute;
+    top: 153.9px;
+    left: 220.44px;
+}
+
+.pengTombolKanan {
+    position: absolute;
+    top: 153.9px;
+    left: 1291.26px;
+}
+
+/* Penelitian dan Pengabdian */
+.boxPenelitian {
+    position: absolute;
+    top: 2819.45px;
+    width: 1520px;
+    height: 848.336px;
+
+}
+
+.groupPenelitian {
+    position: absolute;
+    top: 72.82px;
+    left: 729.56px;
+    width: 498.981px;
+    height: 254.875px;
+}
+
+.groupPenelitian h1 {
+    width: 236.116px;
+    height: 32.77px;
+    color: #257C21;
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.groupPenelitian h2 {
+    width: 499px;
+    height: 75px;
+    color: #000;
+    font-size: 18.431px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24.882px;
+}
+
+.groupPenelitian h3 {
+    width: 193.689px;
+    height: 33.68px;
+    color: #000;
+    font-size: 14.745px;
+    font-family: Montserrat;
+    line-height: 24.882px;
+}
+
+.groupPengabdian {
+    position: absolute;
+    top: 443.3px;
+    left: 258.25px;
+    width: 644.709px;
+    height: 333.158px;
+}
+
+.groupPengabdian h1 {
+    width: 236.116px;
+    height: 32.77px;
+    color: #257C21;
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.groupPengabdian h2 {
+    width: 644.709px;
+    height: 156.566px;
+    color: #000;
+    font-size: 18.431px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24.882px;
+}
+
+.groupPenelitian h3 {
+    width: 193.689px;
+    height: 33.68px;
+    color: #000;
+    font-size: 14.745px;
+    font-family: Montserrat;
+    line-height: 24.882px;
+}
+
+
+.listPen1 , .listPen2 , .listPen3 {
+    width: auto;
+    height: 33.68px;
+    color: #000;
+    font-size: 14.745px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24.882px;
+    margin-bottom: 0;
+}
+
+.listPen2 , .listPen3 {
+    margin-top: 5px;
+}
+
+.penLine1 , .penLine2 {
+    margin: 0;
+    width: 296.99px;
+    background: #AAAAAA;
+}
+
+.imgPenelitian {
+    position: absolute;
+    top: 80px;
+    left: 258.25px;
+}
+
+.imgPengabdian {
+    position: absolute;
+    top: 437.84px;
+    left: 955.53px;
+}
+
+.imgPen1 {
+    position: absolute;
+    left: 275px;
+    bottom: 65px;
+}
+
+.imgPen2 {
+    position: absolute;
+    left: 275px;
+    bottom: 25px;
+}
+
+.imgPen3 {
+    position: absolute;
+    left: 275px;
+    bottom: -15px;
+}
+
+/* Produk dan Inovasi */
+.boxProduk {
+    position: absolute;
+    top: 3667.79px;
+    width: 1520px;
+    height: 500.396px;
+    background: #9DC08B;
+}
+
+.boxProduk h1 {
+    position: relative;
+    padding-left: auto;
+    padding-top: 80.97px;
+    padding-bottom: 62.78px;
+    width: auto;
+    height: 32.753px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.25);
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.listProduk {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0px 3.7px 3.7px rgba(0, 0, 0, 0.15);
+    font-size: 14.745px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24.882px;
+}
+
+.listProduk p {
+    margin: 0;
+}
+
+.produk2, .produk3 {
+    margin-left: 88.54px;
+}
+
+.tombolSelengkapnya {
+    position: absolute;
+    bottom: 40px;
+    left: 677.91px;
+    width: 159.563px;
+    height: 35.018px;
+}
+
+.tombolSelengkapnya button {
+    display: flex;
+    width: 159.563px;
+    height: 35.018px;
+    border-radius: 33.1754px;
+    border: none;
+    background: #257C21;
+    color: #FFF;
+}
+
+.tombolSelengkapnya button p{
+    margin: auto;
+    width: 126.359px;
+    height: 23.96px;
+    text-align: center;
+    font-size: 12.902px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24.882px;
+}
+
+.tombolSelengkapnya button img {
+    margin: auto;
+}
+
+/* Kiprah Dosen */
+.kiprahDosen {
+    position: absolute;
+    top: 4168.45px;
+    width: 1520px;
+    height: 563.713px;
+    background: #FFF;
+}
+
+.kiprahDosen h1 {
+    position: relative;
+    margin-left: 519px;
+    margin-top: 77.61px;
+    margin-bottom: 56.33px;
+    width: 482px;
+    height: 64px;
+    color: #257C21;
+    text-align: center;
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 31.332px;
+    }
+
+.listDosen {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.dosen1 , .dosen2 , .dosen3 {
+    width: 236.5px;
+}
+
+.dosen2 , .dosen3 {
+    margin-left: 88.54px;
+}
+
+.dosen1 , .dosen2 {
+    width: 236px;
+}
+
+.listDosen h2 {
+    color: #257C21;
+    font-size: 14.745px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24.882px;
+}
+
+.listDosen p {
+    font-size: 14.745px;
+    font-family: Montserrat;
+    line-height: 24.882px;
+}
+
+.bulletDosen {
+    display: flex;
+    justify-content: center;
+    gap: 21.21px;
+    margin-top: 27.76px;
+}
+
+/* Galeri Foto dan Video */
+.boxGaleri {
+    position: absolute;
+    width: 1520px;
+    height: 469.11px;
+    top: 4732.12px;
+}
+
+.boxGaleri h1 {
+    position: relative;
+    margin-left: 579.22px;
+    margin-top: 80.16px;
+    margin-bottom: 73.78px;
+    width: 360.631px;
+    height: 32.792px;
+    color: #257C21;
+    text-align: center;
+    font-size: 29.489px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 22.117px;
+}
+
+.listGaleri {
+    display: flex;
+    justify-content: center;
+    gap: 69.12px;
+}
+
+.galeriKiri {
+    position: absolute;
+    top: 248.67px;
+    left: 354.17px;
+}
+
+.galeriKanan {
+    position: absolute;
+    top: 248.67px;
+    left: 1111.41px;
+}
+
+/* Footer */
+.boxFooter {
+    position: absolute;
+    top: 5201.39px;
+    width: 1520px;
+    height: 419.136px;
+    background: #257C21;
+}
+
+.footerContact {
+    position: absolute;
+    width: 318.252px;
+    height: 272.969px;
+    top: 85.68px;
+    left: 73.19px;
+}
+
+.footerContact h1 {
+    font-size: 20.199px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 27.269px;
+    color: #FFF;
+}
+
+.socialMedia {
+    display: flex;
+    width: 228.758px;
+    height: 30.208px;
+}
+
+.socialMedia p {
+    width: 110px;
+    height: 21px;
+    margin-top: 0;
+    font-size: 20.199px;
+    font-family: Montserrat;
+    line-height: 27.269px;
+    color: #FFF;
+}
+
+.socialIcon {
+    display: flex;
+    gap: 13.21px;
+}
+
+.footerMenu {
+    display: flex;
+    position: relative;
+    margin-left: 476.74px;
+    margin-top: 89.25px;
+}
+
+.footerMenu p {
+    font-size: 18.179px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 27.269px;
+    color:#FFF;
+}
+
+.footerMenu ul li {
+    list-style: none;
+}
+
+.footerMenu ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15.15px;
+    font-family: Montserrat;
+    line-height: 27.269px;
+}
+
+.footerResource , .footerWebsite ,
+.footerVisit , .footerInformasi {
+    margin-left: 30px;
+}
+/* ------------------Halaman Pendaftaran 1---------------------*/
+
+.tombolBack {
+    position: absolute;
+    width: 122.44px;
+    height: 122.44px;
+    left: 70.72px;
+    top: 220.61px;
+}
+
+.headText {
+    position: absolute;
+    width: 962.67px;
+    height: 172.06px;
+    left: calc(50% - 962.67px/2 + 0px);
+    top: 168.61px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.6667px;
+    line-height: 65px;
+    text-align: center;
+    text-indent: 0.921771px;
+    color: #257C21;
+}
+
+.boxSNBP {
+    position: absolute;
+    width: 363.11px;
+    height: 477.11px;
+    left: 109.78px;
+    top: 499.28px;
+    background: #609966;
+    box-shadow: 0px 4.22222px 4.22222px rgba(0, 0, 0, 0.25);
+    border-radius: 21.1111px;
+}
+
+.boxSNBP img {
+    position: absolute;
+    left: 42.22px;
+    top: 97.11px;
+}
+
+.boxSNBP p {
+    position: absolute;
+    width: 298.72px;
+    left: 31.67px;
+    top: 250.94px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 65px;
+    text-align: center;
+    text-indent: 0.921771px;
+    color: #FFFFFF;
+    text-shadow: 0px 4.22222px 4.22222px rgba(0, 0, 0, 0.25);
+}
+
+.boxSNBP button {
+    position: absolute;
+    width: 224.83px;
+    height: 52.78px;
+    left: 68.61px;
+    top: 372.61px;
+
+    border: none;
+    background: #FFFFFF;
+    border-radius: 40.1111px;
+}
+
+.boxSNBP h1 {
+    position: absolute;
+    width: 122.44px;
+    height: 28.5px;
+    left: 42.22px;
+    top: 1px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8889px;
+    line-height: 25px;
+    text-indent: 1.05556px;
+    color: #000000;
+}
+
+.boxSNBP h1 img {
+    top: -1px;
+    left: 130px;
+}
+
+.boxSNBT {
+    position: absolute;
+    width: 363.11px;
+    height: 477.11px;
+    left: 578.44px;
+    top: 499.28px;
+    background: #609966;
+    box-shadow: 0px 4.22222px 4.22222px rgba(0, 0, 0, 0.25);
+    border-radius: 21.1111px;
+}
+
+.boxSNBT img {
+    position: absolute;
+    left: 67.56px;
+    top: 61.22px;
+}
+
+.boxSNBT p {
+    position: absolute;
+    width: 298.72px;
+    left: 31.87px;
+    top: 250.94px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 65px;
+    text-align: center;
+    text-indent: 0.921771px;
+    color: #FFFFFF;
+    text-shadow: 0px 4.22222px 4.22222px rgba(0, 0, 0, 0.25);
+}
+
+.boxSNBT button {
+    position: absolute;
+    width: 224.83px;
+    height: 52.78px;
+    left: 68.61px;
+    top: 372.61px;
+
+    border: none;
+    background: #FFFFFF;
+    border-radius: 40.1111px;
+}
+
+.boxSNBT h1 {
+    position: absolute;
+    width: 122.44px;
+    height: 28.5px;
+    left: 42.22px;
+    top: 1px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8889px;
+    line-height: 25px;
+    text-indent: 1.05556px;
+    color: #000000;
+}
+
+.boxSNBT h1 img {
+    top: -1px;
+    left: 130px;
+}
+
+.boxSIMA {
+    position: absolute;
+    width: 363.11px;
+    height: 477.11px;
+    left: 1047.11px;
+    top: 499.28px;
+    background: #609966;
+    box-shadow: 0px 4.22222px 4.22222px rgba(0, 0, 0, 0.25);
+    border-radius: 21.1111px;
+}
+
+.boxSIMA img {
+    position: absolute;
+    width: 164.67px;
+    left: 99.22px;
+    top: 78.11px;
+}
+
+.boxSIMA p {
+    position: absolute;
+    width: 298.72px;
+    left: 31.67px;
+    top: 250.94px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 65px;
+    text-align: center;
+    text-indent: 0.921771px;
+    color: #FFFFFF;
+    text-shadow: 0px 4.22222px 4.22222px rgba(0, 0, 0, 0.25);
+}
+
+.boxSIMA button {
+    position: absolute;
+    width: 224.83px;
+    height: 52.78px;
+    left: 68.61px;
+    top: 372.61px;
+
+    border: none;
+    background: #FFFFFF;
+    border-radius: 40.1111px;
+}
+
+.boxSIMA h1 {
+    position: absolute;
+    width: 122.44px;
+    height: 28.5px;
+    left: 42.22px;
+    top: 1px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8889px;
+    line-height: 25px;
+    text-indent: 1.05556px;
+    color: #000000;
+}
+
+.boxSIMA h1 img {
+    width: 27.44px;
+    top: -1px;
+    left: 130px;
+}
+
+/* Halaman Pendaftaran SNBP ------------------------------------ */
+
+.headTextSNBP {
+    position: absolute;
+    top: 168.61px;
+    left: 278.67px;
+    width: 962.667px;
+    height: 148.833px;
+
+    color: #257C21;
+    text-align: center;
+    font-size: 50.667px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 65.4px;
+}
+
+.bgSNBP {
+    position: absolute;
+    top: 422.22px;
+    width: 1520px;
+    height: 2119.556px;
+    flex-shrink: 0;
+    background: #609966;
+}
+
+.bgSNBP h1 {
+    position: absolute;
+    top: 84.44px;
+    left: 554.17px;
+    width: 410.611px;
+    height: 67.556px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 33.778px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 65.4px;
+}
+
+.bgSNBP #leaflet1 {
+    position: absolute;
+    top: 214.28px;
+    left: 168.89px;
+}
+
+.bgSNBP #leaflet2 {
+    position: absolute;
+    top: 1099.89px;
+    left: 168.89px;
+}
+
+/* Halaman Pendaftaran SNBT ------------------------------------ */
+
+.headTextSNBT {
+    position: absolute;
+    top: 168.61px;
+    left: 278.67px;
+    width: 962.667px;
+    height: 148.833px;
+
+    color: #257C21;
+    text-align: center;
+    font-size: 50.667px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 65.4px;
+}
+
+.bgSNBT {
+    position: absolute;
+    top: 422.22px;
+    width: 1520px;
+    height: 2119.556px;
+    flex-shrink: 0;
+    background: #609966;
+}
+
+.bgSNBT h1 {
+    position: absolute;
+    top: 84.44px;
+    left: 554.17px;
+    width: 410.611px;
+    height: 67.556px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 33.778px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 65.4px;
+}
+
+.bgSNBT #leaflet1 {
+    position: absolute;
+    top: 214.28px;
+    left: 168.89px;
+}
+
+.bgSNBT #leaflet2 {
+    position: absolute;
+    top: 1099.89px;
+    left: 168.89px;
+}
+
+/* Halaman Pendaftaran SIMA ------------------------------------- */
+
+.headSIMA {
+    position: absolute;
+    z-index: -1;
+    width: 1520px;
+    height: 213px;
+    background: #609966;
+}
+
+.headSIMA #tombolBack {
+    position: absolute;
+    width: 122.44px;
+    height: 122.44px;
+    left: 48.56px;
+    top: 48.78px;
+}
+
+.headSIMA h1 {
+    position: absolute;
+    margin: 0px;
+    top: 57.22px;
+    left: 188.94px;
+
+    color: #FFF;
+    font-size: 50.667px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 65.4px;
+}
+
+.headSIMA h2 {
+    position: absolute;
+    margin: 0px;
+    top: 104.72px;
+    left: 190px;
+
+    color: #FFF;
+    font-size: 25.333px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 65.4px;
+}
+
+.bodySIMA {
+    position: absolute;
+    top: 354.22px;
+    width: 1520px;
+    height: 832px;
+    background: #FFF;
+}
+
+.bodySIMA h1 {
+    width: 272.333px;
+    height: 79.167px;
+
+    color: #257C21;
+    text-align: center;
+    font-size: 38px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 65.4px;
+}
+
+.bodySIMA button {
+    border: none;
+    background: #9DC08B;
+
+    color: #FFF;
+    padding-left: 15.72px;
+    text-align: left;
+    text-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);
+    font-size: 25.333px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 65.4px;
+    transition: 300ms;
+}
+
+.bodySIMA button:hover {
+    background: #257C21; 
+}
+
+.bodySIMA #SIMA1 {
+    position: absolute;
+    left: 48.56px;
+    width: 473.944px;
+}
+
+.bodySIMA #SIMA2 {
+    position: absolute;
+    left: 48.56px;
+    top: 231.61px;
+    width: 473.944px;
+}
+
+.bodySIMA #SIMA3 {
+    position: absolute;
+    left: 48.56px;
+    top: 338.22px;
+    width: 473.944px;
+}
+
+.bodySIMA #SIMA4 {
+    position: absolute;
+    left: 48.56px;
+    top: 444.83px;
+    width: 473.944px;
+}
+
+.bodySIMA #SIMA5 {
+    position: absolute;
+    left: 48.56px;
+    top: 551.44px;
+    width: 473.944px;
+}
+
+.bodySIMA #SIMA6 {
+    position: absolute;
+    left: 48.56px;
+    top: 658.06px;
+    width: 473.944px;
+}
+
+.bodySIMA img {
+    position: absolute;
+    left: 615.39px;
+    top: 167.22px;
+}
+
+/* Halaman Login -------------------------------------- */
+
+.halamanLogin {
+    width: 599px;
+    height: 521px;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.boxLogin {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.boxLogin:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.halamanLogin h1 {
+    position: relative;
+    top: 95px;
+    left: 125px;
+    width: 207px;
+    height: 31px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #000;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 31.458px;
+}
+
+.halamanLogin h2 {
+    position: relative;
+    top: 90px;
+    left: 125px;
+    width: 320px;
+    height: 31px;
+
+    color: #000;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 14.958px;
+}
+
+.boxUsername {
+    position: relative;
+    left: 126px;
+    top: 105px;
+    width: 349px;
+    height: 63px;
+
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.boxUsername img {
+    margin-top: 19px;
+    margin-left: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.boxPassword {
+    position: relative;
+    left: 126px;
+    top: 125px;
+    width: 349px;
+    height: 63px;
+
+    border-radius: 10px;
+    background: #D9D9D9;
+}
+
+.boxPassword img {
+    margin-top: 19px;
+    margin-left: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.boxMasuk {
+    position: relative;
+    left: 125px;
+    top: 120px;
+    width: 349px;
+    height: 63px;
+
+    border-radius: 48px;
+    background: #257C21;
+}
+
+.boxMasuk p {
+    padding-top: 22px;
+    padding-left: 132px;
+    width: 86px;
+    height: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 14.958px;
+}
+
+.boxUsername input {
+    position: absolute;
+    top: 26px;
+    left: 69px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.boxPassword input {
+    position: absolute;
+    top: 26px;
+    left: 69px;
+    border: none;
+    background: #D9D9D9;
+}
+
+
+.boxUsername input::placeholder {
+    text-decoration: none;
+    margin-top: 26px;
+    margin-left: 69px;
+    width: 89px;
+    height: 18px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 14.958px;
+}
+
+.boxPassword input::placeholder {
+    text-decoration: none;
+    margin-top: 26px;
+    margin-left: 69px;
+    width: 89px;
+    height: 18px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 14.958px;
+}
+
+.boxClose {
+    position: absolute;
+    top: 100px;
+    left: 1020px;
+    width: 14px;
+    height: 24px;
+    color: #AAAAAA;
+    text-decoration: none;
+    font-size: 30px;
+}
